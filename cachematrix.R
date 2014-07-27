@@ -7,7 +7,7 @@ makeCacheMatrix <- function(M = matrix()) {
   M.Inv <- NULL # The inverse is set to NULL for now
   set <- function(y) {
     # "<<-" is a super-assignment.
-    # Here it creates a varaibles in the global environment.
+    # Here it creates a variable in the global environment.
     M <<- y
     M.Inv <<- NULL
   }
